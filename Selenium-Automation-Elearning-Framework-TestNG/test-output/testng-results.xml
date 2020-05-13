@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98504" started-at="2020-05-13T16:13:08Z" finished-at="2020-05-13T16:14:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98504" started-at="2020-05-13T16:13:08Z" finished-at="2020-05-13T16:14:47Z">
+      <class name="com.training.sanity.tests.RTTC_001_UserRegistrationTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_001_UserRegistrationTests@123f1134]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-05-13T21:43:08Z" finished-at="2020-05-13T21:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_001_UserRegistrationTests@123f1134]" name="setUp" is-config="true" duration-ms="48685" started-at="2020-05-13T21:43:08Z" finished-at="2020-05-13T21:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.training.sanity.tests.RTTC_001_UserRegistrationTests@123f1134]" name="openLoginPage" duration-ms="19137" started-at="2020-05-13T21:43:57Z" finished-at="2020-05-13T21:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="openRegistrationPage()[pri:0, instance:com.training.sanity.tests.RTTC_001_UserRegistrationTests@123f1134]" name="openRegistrationPage" duration-ms="8346" started-at="2020-05-13T21:44:16Z" finished-at="2020-05-13T21:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRegistrationPage -->
+        <test-method status="PASS" signature="enterRegistrationDetails()[pri:0, instance:com.training.sanity.tests.RTTC_001_UserRegistrationTests@123f1134]" name="enterRegistrationDetails" duration-ms="22299" started-at="2020-05-13T21:44:24Z" depends-on-methods="com.training.sanity.tests.RTTC_001_UserRegistrationTests.openRegistrationPage" finished-at="2020-05-13T21:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRegistrationDetails -->
+      </class> <!-- com.training.sanity.tests.RTTC_001_UserRegistrationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
